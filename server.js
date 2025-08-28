@@ -73,7 +73,8 @@ app.post('/api/download', upload.single('cookies'), async (req, res) => {
   }
 });
 
-const PORT = process.env.PORT; // Remove fallback to 5000
+const PORT = 5050; // Remove fallback to 5000
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
+
 });
