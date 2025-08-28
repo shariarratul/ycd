@@ -1,8 +1,10 @@
+
 version: "3"
-tunnels:
-    my-app:
-        proto: http
-        addr: 5050
-        domain: immortal-mentally-tick.ngrok-free.app
 agent:
-    authtoken: 31ojJqFISt1nxP6ZU6m6zDUUK5M_7RaZ2MZmENUe7b1rKBvvj
+  authtoken: 31ojJqFISt1nxP6ZU6m6zDUUK5M_7RaZ2MZmENUe7b1rKBvvj
+endpoints:
+  my-app:
+    scheme: https
+    proto: http
+    addr: localhost:5050
+    domain: immortal-mentally-tick.ngrok-free.app
