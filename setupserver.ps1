@@ -3,7 +3,7 @@
 # ===============================
 
 # === Hardcoded Ngrok Auth Token ===
-$ngrokAuthToken = "YOUR_NGROK_AUTHTOKEN_HERE"
+$ngrokAuthToken = "31rWbvFgNk2THB1VvIXhc8TAuqY_69maSukKecRcnJa7em1mX"
 
 # === Install Chocolatey if missing ===
 if (-not (Get-Command choco -ErrorAction SilentlyContinue)) {
@@ -66,3 +66,4 @@ npm install
 
 
 Write-Output "=== Setup Complete ✅ ==="
+
