@@ -1,8 +1,0 @@
-version: "3"
-tunnels:
-    my-app:
-        proto: http
-        addr: 5050
-        domain: internal-dane-definite.ngrok-free.app
-agent:
-    authtoken: 31rWbvFgNk2THB1VvIXhc8TAuqY_69maSukKecRcnJa7em1mX
