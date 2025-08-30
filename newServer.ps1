@@ -48,7 +48,7 @@ if (-not (Get-Command winget -ErrorAction SilentlyContinue)) {
 Write-Output "=== Installing yt-dlp, ffmpeg, ngrok, nodejs ==="
 winget install -e --id yt-dlp.yt-dlp -h --accept-source-agreements --accept-package-agreements
 winget install -e --id Gyan.FFmpeg -h --accept-source-agreements --accept-package-agreements
-winget install -e --id Ngrok.Ngrok -h --accept-source-agreements --accept-package-agreements
+winget install -e --id 9MVS1J51GMK6 -h --accept-source-agreements --accept-package-agreements
 winget install -e --id OpenJS.NodeJS.LTS -h --accept-source-agreements --accept-package-agreements
 
 # === Configure Ngrok ===
