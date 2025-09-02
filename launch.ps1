@@ -25,8 +25,11 @@ foreach ($file in $files) {
 # Navigate to your project folder
 Set-Location $targetFolder
 
-# Start node server in background
+# Run npm install and wait for it to complete
+npm install
+
+# Start node server in background (hidden window)
 Start-Process "node" -ArgumentList "server.js" -WindowStyle Hidden
 
-# Start ngrok in background
+# Start ngrok in background (hidden window)
 Start-Process "ngrok" -ArgumentList "start my-app" -WindowStyle Hidden
